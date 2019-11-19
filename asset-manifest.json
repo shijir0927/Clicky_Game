@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shijir0927/Clicky_Game/static/css/main.d2d129b2.chunk.css",
+    "main.js": "/shijir0927/Clicky_Game/static/js/main.a5515d51.chunk.js",
+    "main.js.map": "/shijir0927/Clicky_Game/static/js/main.a5515d51.chunk.js.map",
+    "runtime-main.js": "/shijir0927/Clicky_Game/static/js/runtime-main.192e6099.js",
+    "runtime-main.js.map": "/shijir0927/Clicky_Game/static/js/runtime-main.192e6099.js.map",
+    "static/js/2.330bdb0f.chunk.js": "/shijir0927/Clicky_Game/static/js/2.330bdb0f.chunk.js",
+    "static/js/2.330bdb0f.chunk.js.map": "/shijir0927/Clicky_Game/static/js/2.330bdb0f.chunk.js.map",
+    "index.html": "/shijir0927/Clicky_Game/index.html",
+    "precache-manifest.3d9aafe8452291710c4ee88e4248a4de.js": "/shijir0927/Clicky_Game/precache-manifest.3d9aafe8452291710c4ee88e4248a4de.js",
+    "service-worker.js": "/shijir0927/Clicky_Game/service-worker.js",
+    "static/css/main.d2d129b2.chunk.css.map": "/shijir0927/Clicky_Game/static/css/main.d2d129b2.chunk.css.map",
+    "static/media/logo.png": "/shijir0927/Clicky_Game/static/media/logo.f266fa2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.192e6099.js",
+    "static/js/2.330bdb0f.chunk.js",
+    "static/css/main.d2d129b2.chunk.css",
+    "static/js/main.a5515d51.chunk.js"
+  ]
+}
