@@ -1,0 +1,20 @@
+.cards-wrapper {
+  /* background: rgba(255,255,255,0.3); */
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: auto auto auto;
+  padding: 20px;
+  /* border-radius: 10px;
+        box-shadow: 5px 5px 5px grey; */
+  background-color: lightslategray;
+}
+
+@media screen and (max-width: 550px) {
+  .cards-wrapper {
+    width: 100%;
+  }
+}

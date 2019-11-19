@@ -1,0 +1,9 @@
+html {
+  margin: 0;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  color: black;
+  font-weight: bold;
+  background-color: lightskyblue;
+}
