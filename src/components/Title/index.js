@@ -7,7 +7,7 @@ let Title = ({ highscore, score, message }) => (
     <div className="title-wrapper">
       <div className="logo-score-wrapper">
         <div className="logo-wrapper">
-          <h1>Seven Deadly Sins</h1>
+          <h1>-- Seven Deadly Sins --</h1>
         </div>
         <div className="score-wrapper">
           <h2>Current Score : {score}</h2>
