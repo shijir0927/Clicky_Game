@@ -1,0 +1,12 @@
+.Footer {
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    background-color:black;
+    opacity:.9;
+    color:white;
+    margin-top:0px;
+    height:50px;
+    width:100%;
+    text-align: center;
+}

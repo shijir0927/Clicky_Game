@@ -3,7 +3,5 @@ html {
 }
 body {
   font-family: "Inconsolata", monospace;
-  color: black;
-  font-weight: bold;
-  background-color: lightskyblue;
+  margin: 0;
 }

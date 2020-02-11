@@ -1,14 +1,26 @@
 .card-wrapper > img {
-  width: 100%;
-  height: 250px;
-  box-shadow: 5px 5px 5px grey;
-  border-radius: 5px;
-  transition: transform 1s ease;
-  overflow: hidden;
-}
-
-.card-wrapper > img:hover {
-  opacity: 0.9;
-  transform: scale(1.03);
-  cursor: pointer;
-}
+    display:grid;
+    height: 150px;
+    width:100%;
+    min-width:100px;
+    max-width:200px;
+    max-height:150px;
+    min-height:100px;
+    box-shadow: -6px 6px 2px 1px rgba(0, 0, 55, .2);
+    border-radius: 10px;
+    border:1px solid lightgray;
+    transition: transform .5s ease;
+    overflow:hidden;
+    align-self: center;
+    z-index:1;
+    }
+    
+    .card-wrapper > img:hover {
+    -moz-transform: scale(1.025); 
+    -webkit-transform: scale(1.025);
+    -o-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+    cursor: pointer;
+    z-index:1;
+    }

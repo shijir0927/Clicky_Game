@@ -1,31 +1,16 @@
 import React from "react";
 import "./style.css";
-import Logo from "../../../src/images/logo.png";
 
-let Title = ({ highscore, score, message }) => (
-  <div>
-    <div className="title-wrapper">
-      <div className="logo-score-wrapper">
-        <div className="logo-wrapper">
-          <h1>-- Seven Deadly Sins --</h1>
+let Title = ({highscore, score, message}) => (
+    
+    <nav className='Title'>
+        <h1>CLICKY GAME</h1>
+        <h1>Click an icon to begin!</h1>
+        <div className='score-wrapper'>
+            <h1 className='score'>SCORE: {score}</h1>
+            <h1 className='high-score'>TOP SCORE: {highscore}</h1>
+            <h1>{message}</h1>
         </div>
-        <div className="score-wrapper">
-          <h2>Current Score : {score}</h2>
-          <h2>High Score : {highscore}</h2>
-          <h2>{message}</h2>
-        </div>
-      </div>
-
-      <div className="directions-wrapper">
-        <br></br>
-        <h1>Memory Game</h1>
-        <h2>
-          Clicking A Unique Card Grants A Point & Will Shuffle The Cards! Be
-          Careful, You Can't Select The Same Card Twice!
-        </h2>
-      </div>
-    </div>
-  </div>
-);
-
+    </nav>
+)
 export default Title;
