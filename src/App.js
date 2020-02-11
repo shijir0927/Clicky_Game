@@ -101,7 +101,7 @@ class App extends Component {
         <div>
           {this.state.showPopup ? (
             <Popup
-              text='Too bad, you lost. Click "OK" to beat your top score.'
+              text='Too bad, you lost. Click "OK" to beat your top score!'
               closePopup={this.togglePopup.bind(this)}
               score={this.state.score}
             />
@@ -110,7 +110,7 @@ class App extends Component {
         <div>
           {this.state.showWinPopup ? (
             <WinPop
-              text='You Win! Click "OK" to beat your top score.'
+              text='You Win! Click "OK" to beat your top score!'
               closeWinPopup={this.toggleWinPopup.bind(this)}
               score={this.state.score}
             />
